@@ -1,0 +1,38 @@
+ecommerce-toys/
+├── config/
+│   └── database.php          # Database connection (PDO)
+├── includes/
+│   ├── functions.php         # Reusable functions
+│   ├── auth_check.php        # Authentication middleware
+│   ├── admin_check.php       # Admin authentication
+│   └── header.php            # Common header
+├── pages/
+│   ├── index.php             # Home page with all sections
+│   ├── products.php          # All products listing
+│   ├── product_detail.php    # Single product detail
+│   ├── cart.php              # Shopping cart
+│   ├── checkout.php          # Checkout process
+│   ├── wishlist.php          # Wishlist
+│   ├── orders.php            # Order tracking
+│   ├── profile.php           # User profile & address
+│   ├── login.php             # Login with OTP
+│   └── register.php          # Registration
+├── admin/
+│   ├── dashboard.php         # Admin dashboard
+│   ├── products_manage.php   # Manage products
+│   ├── orders_manage.php     # Manage orders
+│   ├── payments_manage.php   # Payment tracking
+│   ├── status_update.php     # Update order status
+│   ├── reports.php           # Sales reports
+│   └── logout.php
+├── assets/
+│   ├── css/
+│   │   └── style.css         # Main stylesheet
+│   ├── js/
+│   │   └── main.js           # Main JavaScript
+│   └── images/               # Product images
+├── uploads/
+│   └── products/             # User uploaded images
+└── api
+    ├──add-to-cart_api.php        #api information
+    └──add-to-wishlist.php             
